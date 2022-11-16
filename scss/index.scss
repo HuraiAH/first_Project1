@@ -1,0 +1,23 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../scss/variable";
+@import "../scss/navbar";
+@import "../scss/heroSection.scss";
+@import "../scss/mediaQurie.scss";
+@import "../scss/siteSection";
+@import "../scss/autoGenaretorNumber";
+@import "../scss/courses";
+@import "../scss/carouselCard";
+@import "../scss/flipperCard";
+@import "../scss/blogSection";
+@import "../scss/emaillSubscrib";
+@import "../scss/productFilter.scss";
+@import "../scss/footer";
+
+
+
+body{
+ overflow-x: hidden;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}

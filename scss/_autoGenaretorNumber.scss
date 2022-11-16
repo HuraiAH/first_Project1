@@ -1,0 +1,44 @@
+.numbers_counting{
+    width: 100vw;
+    min-height: 800px;
+    background-color: #F8F9FA;
+    margin-top: 40px;
+}
+.img_fluid{
+   max-width: 100%;
+    height: auto;
+}
+.numbers{
+   
+ h2{
+    margin-top: 42px;
+    font-size: 44px;
+    color: var(--themes_color);
+ }
+ p{
+    margin-top: 30px;
+    line-height: 36px;
+    color: #838383;
+ }
+ .counting{
+    span{
+        color:var(--themes_color);
+        font-size: 40px;
+    }
+    p{
+        font-weight: 600;
+       
+    }
+ }
+
+}
+.p_green{
+    color:  #1cb935 !important;
+}
+.p_red{
+    color: red !important;
+}
+.p_blue{
+    color: blue !important;
+}
+

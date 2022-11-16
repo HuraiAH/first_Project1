@@ -1,0 +1,31 @@
+.popular_courses{
+    margin-top: 90px;
+    h2{
+        font-size: 46px;
+        color: var(--themes_color);
+        align-items: center;
+        justify-content: center;
+    }
+    p{
+        color: #0a0101cc;
+        line-height: 32px;
+    }
+    .enroll_btn{
+        background: none;
+        border: none;
+        outline: none;
+        background-color: var(--themes_color);
+        border: 2px solid var(--themes_color);
+        padding: 12px 37px;
+        margin-top: 1rem;
+        margin-left: 141px;
+        border-radius: 5px;
+        transition: all 0.3s;
+        color: #fff;
+    }
+    .enroll_btn:hover{
+        background-color: transparent;
+        color: #000;
+        border: 2px solid var(--themes_color);
+       }
+}

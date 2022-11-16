@@ -1,0 +1,48 @@
+.carousel_card{
+    min-width: 80%;
+    height: 430px;
+    background-color: #fff;
+    transition: all 0.4s;
+    position: relative;
+    img{
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+    h4{
+        font-size: 25px;
+        margin: 14px 10px;
+    }
+    h4:hover{
+        color: var(--themes_color);
+    }
+    p{
+        font-size: 15px;
+        margin: 14px 10px;
+        color: #aaa;
+        line-height: 28px;
+    }
+    &:hover{
+        box-shadow: 0 0 16px 11px #ddd;
+    }
+    .date_price{
+        align-items: center;
+        p{
+            color: var(--themes_color);
+            font-size: 18px;
+        }
+        .original_price{
+            text-decoration: line-through;
+            color: #ddd !important;
+            font-size: 16px !important;
+            margin-left: 141px;
+        }
+        .now_price{
+            border: 2px solid var(--themes_color);
+            padding: 3px 5px;
+            background-color:  var(--themes_color);
+            border-radius: 4px;
+        }
+    }
+
+}

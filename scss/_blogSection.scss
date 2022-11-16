@@ -1,0 +1,60 @@
+.teacherc2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    h3{
+        font-size: 52px;
+        margin-top: 77px;
+        color: var(--themes_color);
+
+    }
+    p{
+        color: rgb(91, 94, 90);
+    }
+}
+
+
+.blog_img{
+    width: 100%;
+    height: 480px;
+    margin-top: 20px;
+    box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.2);
+}
+.blog_img1{
+    img{
+        width: 150px;
+        height: 100px;
+        margin-top: 20px;
+        box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.7);
+    }
+    h4{
+        margin-top: 18px;
+        margin-left: 12px;
+        color: black;
+        font-size: 18px;
+        transition: all 0.3s;
+    }
+    h4:hover{
+        color:var(--themes_color);
+    }
+    .blog_users{
+        align-items: center;
+        gap: 10px;
+        margin: 0px 12px;
+        i{
+            font-size: 13px;
+            color: rgb(211, 211, 59);
+        }
+        p{
+            font-size: 1rem;
+            margin-top: 11px;
+        }
+        
+    }
+    
+    
+}
+//
+
